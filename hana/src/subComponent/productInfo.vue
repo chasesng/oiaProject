@@ -8,7 +8,7 @@
                 {{ getProductName(productID) }}</p>
             <div style="width:100vw;height:fit-content;background-color:whitesmoke;overflow:hidden;margin-top:-7%">
 
-                <div v-for="(i, index) in this.selfCareProducts.filter(i => i.id === productID)" :key="index"
+                <div v-for="(i, index) in selfCareProducts.filter(i => i.id === productID)" :key="index"
                     style="text-align:center;font-size:2.5vh;font-weight:350;padding-top:2em">
                     <div style="margin:auto;margin-bottom:2%;width:90vw;height:25vh;overflow:hidden;background-color:white;filter:brightness(96%);padding:3vh 0 0 0;border:1px solid gray;border-top:1px solid lightgray; border-radius:10px">
                         <img :src="i.imgLink"
