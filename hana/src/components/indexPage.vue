@@ -23,7 +23,7 @@
     <div class="cntr" style="margin-top:1vh;width:95vw;height:30vh;background-color:white;border-top:2px solid lightgray;display:flex;overflow:scroll;border-radius:10px">
       <div v-for="(i, index) in users.filter(i => i.userID === usID)" :key="index" style="width:40%;height:100%;">
         <Splide :options="{ rewind: true, arrows: false, autoplay:true, pagination: false}" >
-        <SplideSlide v-for="(prod, ind) in this.selfcareProducts" :key="ind" style="border:none;background-color:white">
+        <SplideSlide v-for="(prod, ind) in selfcareProducts" :key="ind" style="border:none;background-color:white">
           <div style="width:100%;height:25vh;opacity:.8;overflow:hidden">
             <router-link :to="'/Product/' + prod.id">
             
