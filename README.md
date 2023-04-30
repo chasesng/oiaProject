@@ -18,6 +18,9 @@ Features
 * 'Watched' products does not feed details, & is better fit for a bookmark area.
 * View ingredient data to learn its purpose, & which of your products contain it
 * Ingredients & Products database will be consistently updated until at least 200 ingredients' data are available for viewing
+* Mark ingredients that are of interest to you. Upon viewing a product with the marked ingredient, you will be able to view it from a glance.
+
+
 ## Roadmap
 
 - Add more 'products' & 'ingredients'
