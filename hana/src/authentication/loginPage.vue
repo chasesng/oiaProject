@@ -43,9 +43,9 @@
            
             </div> 
             
-            <div style="margin:auto; width:300px">
-            <div style="height:30px;">
-                <p class="errMsg ft l" v-if="errMsg">{{ errMsg }}</p>
+            <div style="height:5vh;width:300px">
+            <div style="height:fit-content;">
+                <p class="errMsg ibn l" style="font-weight:350" v-if="errMsg">{{ errMsg }}</p>
             </div>
             
             </div>
@@ -100,7 +100,7 @@ const login = () => {
         errMsg.value = "Invalid Password";
         break;
       default:
-        errMsg.value = "Email / Password was incorrect";
+        errMsg.value = "Email / Password is incorrect";
         break;
     }
 

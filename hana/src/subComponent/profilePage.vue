@@ -32,7 +32,7 @@
 
             </div>
 
-            <div v-if="isLoggedin" style="color:white;text-align:left;width:fit-content;font-size:2.5vh;border-top:1px solid black;padding-top:5vh;width:95vw;margin:auto">
+            <div v-if="isLoggedin" style="color:white;text-align:left;width:fit-content;font-size:2.5vh;border-top:1px solid black;padding-top:5vh;width:95vw;margin:auto;margin-bottom:10vh">
                     <p class="ibn" style="width:100%;background-color:#1d1d1f;border-radius:5px;border:1px solid gray;padding:.5vh" @click="handleSignOut(), go('/Landing')"><i class="fa-solid fa-door-open"></i> Sign Out </p>
                 </div>
         </div>
