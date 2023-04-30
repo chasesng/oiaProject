@@ -85,8 +85,8 @@
                                 <div style="width:90vw;height:4vh">
                                         <div
                                             style="float:right;text-align:center;border:1px solid gray;margin-left:1vw;width:40vw;height:5vh;max-width:200px;max-height:30px;font-size:2vh;font-weight:350;padding:0;background-color:gray;padding-top:.2em">
-                                            <p v-if="checkAlert(usID, returnIngredientID(a))" style="padding:0px 2vw 0px 2vw;color:lightgray" @click="alertToggle(usID, returnIngredientID(a))">Remove Mark</p>
-                                            <p v-else style="padding:0px 2vw 0px 2vw;color:white" @click="alertToggle(usID, returnIngredientID(a))">Mark this ingredient</p>
+                                            <p v-if="checkAlert(usID, returnIngredientID(a))" style="padding:0px 2vw 0px 2vw;color:lightgray" @click="alertToggle(usID, returnIngredientID(a))"> Remove Alert </p>
+                                            <p v-else style="padding:0px 2vw 0px 2vw;color:white" @click="alertToggle(usID, returnIngredientID(a))">Add Alert</p>
                                         </div>
                                         
                                     </div>

@@ -50,9 +50,9 @@
                             style="float:right;text-align:center;border:1px solid gray;margin-right:1vw;width:40vw;height:5vh;max-width:200px;max-height:30px;font-size:2vh;font-weight:350;padding:0;background-color:gray;padding-top:.2em">
                             <p v-if="checkAlert(usID, returnIngredientID(String(i.name[0])))"
                                 style="padding:0px 2vw 0px 2vw;color:lightgray"
-                                @click="alertToggle(usID, returnIngredientID(String(i.name[0])))">Remove Mark</p>
+                                @click="alertToggle(usID, returnIngredientID(String(i.name[0])))">Remove Alert</p>
                             <p v-else style="padding:0px 2vw 0px 2vw;color:white"
-                                @click="alertToggle(usID, returnIngredientID(String(i.name[0])))">Mark this ingredient
+                                @click="alertToggle(usID, returnIngredientID(String(i.name[0])))">Add Alert
                             </p>
                         </div>
 
