@@ -82,7 +82,7 @@
                                     <div style="width:10vw;height:100%;color:gray;font-size:2vh"><i
                                             class="fa-solid fa-chevron-down"></i></div>
                                 </div>
-                                <div style="width:90vw;height:4vh">
+                                <div style="width:90vw;height:4vh;margin-top:1vh">
                                         <div
                                             style="float:right;text-align:center;border:1px solid gray;margin-left:1vw;width:40vw;height:5vh;max-width:200px;max-height:30px;font-size:2vh;font-weight:350;padding:0;background-color:gray;padding-top:.2em">
                                             <p v-if="checkAlert(usID, returnIngredientID(a))" style="padding:0px 2vw 0px 2vw;color:lightgray" @click="alertToggle(usID, returnIngredientID(a))"> Remove Alert </p>

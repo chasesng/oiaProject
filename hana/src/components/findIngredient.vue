@@ -45,7 +45,7 @@
 
 
                     </div>
-                    <div style="width:100vw;height:4vh">
+                    <div style="width:100vw;height:4vh;margin-top:1vh">
                         <div
                             style="float:right;text-align:center;border:1px solid gray;margin-right:1vw;width:40vw;height:5vh;max-width:200px;max-height:30px;font-size:2vh;font-weight:350;padding:0;background-color:gray;padding-top:.2em">
                             <p v-if="checkAlert(usID, returnIngredientID(String(i.name[0])))"

@@ -182,7 +182,9 @@ const register = () => {
           status: "Available",
           favorited: [],
           yourProducts: [],
-          recentlyViewed: []
+          recentlyViewed: [],
+          alertedIngredients: []
+
 
         });
         console.log("Successful");
